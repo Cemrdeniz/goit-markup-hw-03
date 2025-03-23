@@ -1,0 +1,136 @@
+/* HEAD */
+.title {
+    text-decoration: none;
+    font-size: 18px;
+    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.title span {
+    color: #4D5AE5;
+}
+
+/* .logo{
+    width: 115px;
+    height: 24px;
+    top: 24px;
+    left: 156px;
+} */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font: Roboto;
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+nav ul li a:hover {
+    color: #404BBF;
+}
+
+nav ul li a:active {
+    color: #404BBF;
+    text-decoration: underline;
+    text-decoration-color: #404BBF;
+}
+
+/* NAVBAR - ADDRESS */
+address ul {
+    list-style: none;
+}
+
+address ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #434455;
+}
+
+address ul li a:hover {
+    color: #404BBF;
+}
+
+/* BUTTON */
+.button1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #404BBF;
+}
+
+/* HEADER */
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+/* SECTION 2 */
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.section3 ul li {
+    list-style-type: none;
+}
+
+.section4 ul li {
+    list-style: none;
+}
+
+/* FOOTER */
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
