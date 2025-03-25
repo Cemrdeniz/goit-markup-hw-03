@@ -39,8 +39,8 @@ body {
   list-style: none;
   width: 261px;
   height: 24px;
-  margin-right: 40px;
-  gap: 40px;
+  margin-right: 150px;
+  gap: 20px;
 }
 .menu-item a {
   text-decoration: none;
@@ -161,6 +161,7 @@ p {
   width: 100%;
   text-align: center;
   height: 732px;
+  background-color: #F4F4FD;
 }
 .section3-main {
   display: flex;
@@ -174,6 +175,12 @@ p {
   height: 380px;
   margin-top: 100px;
   gap: 32px;
+  box-shadow: 
+    0px 2px 1px 0px #2E2F4214, 
+    0px 1px 1px 0px #2E2F4229, 
+    0px 1px 6px 0px #2E2F4214;
+  
+
 }
 .section3-item h3 {
   margin-top: 20px;
@@ -184,11 +191,15 @@ p {
 .section4 {
   width: 1158px;
   text-align: center;
+  border-width: 1px, 1px, 1px, 1px;
+  border-style: solid;
+  border-color: #E7E9FC;
 }
 .section4-main {
   margin-top: 30px;
-  gap: 10px;
-  border-bottom: 1px solid #4d5ae5;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
 }
 
 .section4-item {
@@ -198,6 +209,8 @@ p {
   height: 420px;
   gap: 8px;
   margin: 10px;
+  background: #FFFFFF;
+
 }
 .section4-text {
   text-align: left;
@@ -205,6 +218,10 @@ p {
   padding-right: 16px;
   padding-bottom: 32px;
   padding-left: 16px;
+  border-width: 0px, 1px, 1px, 1px;
+  border-style: solid;
+  border-color: #E7E9FC;
+ 
 }
 .footer {
   width: 1158px;
