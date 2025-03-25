@@ -76,7 +76,7 @@ body {
   font-style: normal;
   color: #434455;
 }
-.address ul li a:hover {
+.address-item a:hover {
   color: #404bbf;
 }
 .slide {
