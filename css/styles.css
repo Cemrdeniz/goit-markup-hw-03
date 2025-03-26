@@ -160,6 +160,7 @@ p {
 .section3 {
   width: 100%;
   text-align: center;
+  background-color: #ffffff;
   height: 732px;
 }
 .section3-main {
@@ -213,8 +214,11 @@ p {
   padding-right: 16px;
   padding-bottom: 32px;
   padding-left: 16px;
-  border-width: 0 1px 1px 1px;  
-  border: 1px solid #E7E9FC;
+  border-top:none;
+  border-right: 1px;
+  border-left:1px;
+  border-bottom: 1px;
+  border: 1px solid #ffffff;
 }
 
 .footer {
