@@ -200,6 +200,7 @@ p {
 }
 
 .section4-item {
+  
   list-style-type: none;
   width: 360px;
   height: 420px;
@@ -209,6 +210,7 @@ p {
 
 }
 .section4-text {
+  display: block;
   text-align: left;
   padding-top: 32px;
   padding-right: 16px;
@@ -216,9 +218,10 @@ p {
   padding-left: 16px;
   border-top:none;
   border-right: 1px;
-  border-left:1px;
-  border-bottom: 1px;
-  border: 1px solid #ffffff;
+  border-left: 1px solid #E7E9FC;
+  border-right: 1px solid #E7E9FC;
+  border-bottom: 1px solid #E7E9FC;
+
 }
 
 .footer {
